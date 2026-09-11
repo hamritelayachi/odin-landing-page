@@ -3,18 +3,17 @@
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-
 }
 
 a {
     text-decoration: none;
 }
 
-.header, main, footer {
+.header, section, footer {
     padding: 1rem 10%;
 }
 
-.header {
+.header, .hero {
     background-color: #254031;
 }
 
@@ -43,3 +42,124 @@ a {
 .nav-link:hover {
     color: #ffffff;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.hero-left, 
+.hero-right {
+    flex: 1;
+}
+
+.hero-left {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-right {
+    background: url('imgs/hero.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #faefdb;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #faefdb;
+}
+
+.btn {
+    max-width: 170px;
+    padding: 8px 24px;
+}
+
+.ingredient-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 16px 64px 16px;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #faefdb;
+}
+
+.ingredient-cards h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #833409;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    flex: 1 1 auto;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    background-color: #254031;
+    padding: 12px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.card p {
+    color: #faefdb;
+    font-size: 16px;
+}
+
+.card .card-thumbnail {
+    width: auto;
+    height: 120px;
+    border-radius: 12px;
+
+}
+
+.card-1-img {
+    background: url('imgs/ing1.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-2-img {
+    background: url('imgs/ing2.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-3-img {
+    background: url('imgs/ing3.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.card-4-img {
+    background: url('imgs/ing4.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
