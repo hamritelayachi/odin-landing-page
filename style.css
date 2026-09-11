@@ -9,6 +9,7 @@ a {
     text-decoration: none;
 }
 
+
 /* ================= HEADER ================= */
 
 .header {
@@ -204,4 +205,51 @@ blockquote cite {
     font-size: 16px;
     font-weight: 600;
     text-align: right;
+}
+
+/* ================= NEWSLETTER ================= */
+
+.newsletter {
+    padding: 32px 3%;
+}
+
+.newsletter-content {
+    max-width: 750px;
+    padding: 24px 7%;
+    border-radius: 24px;
+    gap: 16px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    background-color: #254031;
+
+}
+
+.newsletter-content h3 {
+    font-size: 32px;
+    color: #faefdb;
+}
+
+.newsletter-content p {
+    font-size: 14px;
+    color: #faefdb;
+}
+
+.btn {
+    border: 1px solid #faefdb;
+    color: #faefdb;
+    border-radius: 9px;
+}
+
+.btn:hover {
+    background-color: #faefdb;
+    color: #254031;
+}
+
+.cta {
+    background-color: #faefdb;
+    color: #254031;
+}
 }
