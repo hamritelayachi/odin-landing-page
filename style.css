@@ -153,8 +153,6 @@ a {
     background-size: cover;
 }
 
-
-
 .card-4-img {
     background: url('imgs/ing4.jpeg');
     background-position: center;
@@ -162,4 +160,28 @@ a {
 }
 
 
+.testimonial {
+    background-color: #e5e2de;
+    padding: 64px 9%;
 
+}
+
+blockquote {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+ blockquote p {
+    font-size: 26px;
+    font-style: italic;
+    color: #222;
+}
+
+ blockquote cite  {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
