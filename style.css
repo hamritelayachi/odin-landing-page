@@ -192,13 +192,15 @@ blockquote {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    color: rgb(37, 64, 49);
+
 }
 
 blockquote p {
     font-size: 26px;
     font-style: italic;
     line-height: 1.4;
-    color: #222;
+;
 }
 
 blockquote cite {
@@ -223,7 +225,7 @@ blockquote cite {
     margin: 0 auto;
     align-items: center;
     flex-direction: column;
-    background-color: #254031;
+    background-color: rgb(168, 61, 41);;
 
 }
 
@@ -252,4 +254,11 @@ blockquote cite {
     background-color: #faefdb;
     color: #254031;
 }
+
+footer {
+    background-color: #faefdb;
+    color: #254031;
+    display: flex;
+    justify-content: center;
+    padding: 24px 7%;
 }
